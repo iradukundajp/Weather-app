@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(33, 32, 32);
+    color: white;
+    font-size: 23px;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 600px;
+    text-align: center;
+}
+
+.card h2 {
+    color: #333;
+    margin: 0;
+}
